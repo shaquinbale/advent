@@ -1,5 +1,3 @@
-import re
-
 with open('input3.txt') as file:
     file = file.read()
 
