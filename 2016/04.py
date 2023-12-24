@@ -16,11 +16,11 @@ def checksum(string):  # this is trash code and i hate that i'm using it
         result += tuple[0]
     return result
 
+
 for i in range(len(enames)):
     if checksum(enames[i]) == file[i][-6:-1]:
         IDsum += int(file[i][-10:-7])
 print(f'The sum of every real sector ID is {IDsum}')
-
 
 decoded = []
 
